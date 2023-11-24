@@ -128,7 +128,7 @@ def pattern(pub, pattern_type, start_x, start_y):
             rospy.loginfo("Row {} is completed".format(y))
 
     # Prints message once a row or column pattern is completed 
-    rospy.loginfo("Pattern {} is completed".format(pattern_type))
+    rospy.loginfo("Pattern {} is completed - Window is cleaned".format(pattern_type))
 
 if __name__ == '__main__':
     try:
