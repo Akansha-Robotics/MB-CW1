@@ -90,7 +90,7 @@ def to_goal():
 
             # Setting linear velocity to move with speed ranging from 0.5 to 1.5 times the distance 
             # Ensure robot will not move too fast if distance is far 
-            vel_msg.linear.x = min(1.5 * distance, 0.5)  # Caps the linear speed
+            vel_msg.linear.x = min(1.5 * distance, 0.5)
             
             # Setting angular velocity (for robot rotation) 
             # Based on difference from goal angle (Value calculated above) from current angle (Theta)
